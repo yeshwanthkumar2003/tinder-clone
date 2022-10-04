@@ -1,4 +1,6 @@
 # tinder-clone
+![download](https://user-images.githubusercontent.com/94180456/193885728-38584d12-6a4f-4f4f-8a16-e83ed247d2d2.jpg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## [Live Demo of Tinder clone app](https://tinder-yesh.netlify.app)
