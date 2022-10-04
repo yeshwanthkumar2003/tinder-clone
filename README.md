@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - Database: MongoDB
   - Back-end JS framework: NodeJS
   - Server side: Express JS
-  - Connect to MongoDB use Mongooes
+  - Connect to MongoDB use Mongoose
 - Front-End:
   - deploying it into firebase to host front-end
 - `npx create-react-app tinder-clone`
@@ -42,39 +42,32 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - open [postman](https://www.postman.com/) (interact with servers backend stuff) in local to check our API if they are working correctly - get new "+" tab, and type the `http://localhost:8001/` and `http://localhost:8001/tinder/cards` - post `http://localhost:8001/tinder/cards` -> body -> raw -> JSON - add below:
 
 ```
-    [
-    {
-    "name": "Elon Musk",
-    "imgUrl":
-    "https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg"
-    },
-    {
-    "name": "Jeff Bezoz",
-    "imgUrl":
-    "https://www.biography.com/.image/t_share/MTY2NzA3ODE3OTgwMzcyMjYw/jeff-bezos-andrew-harrer_bloomberg-via-getty-images.jpg"
-    }
-    ]
-
-```
-
-```
-    [
-    {
-    "name": "Elizabeth Olsen",
-    "imgUrl":
-    "https://www.gstatic.com/tv/thumb/persons/620481/620481_v9_bb.jpg"
-    },
-    {
-    "name": "Scarlett Johansson",
-    "imgUrl":
-    "https://pm1.narvii.com/6310/c0e449205abaa82b4c37b3baf0e77ab95fe13137_00.jpg"
-    },
-    {
-    "name": "Gal Gadot",
-    "imgUrl":
-    "https://upload.wikimedia.org/wikipedia/commons/5/5b/Gal_Gadot_cropped_lighting_corrected_2b.jpg"
-    }
-    ]
+    [   
+     {
+        "name":"Kamal Haasan",
+        "imgurl":"https://igimages.gumlet.io/tamil/home/kamal30102020m1.jpg?w=376&dpr=2.6"
+      },
+      {
+        "name":"Dhanush",
+        "imgurl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4WUlLdivfJoRRSU4k3G-NZW1xdJapRdyzPqzEIl3vU05Vb_zr"
+      },
+      {
+        "name":"Ajith",
+        "imgurl":"https://www.pinkvilla.com/imageresize/ajith_main_6.jpg?width=752&t=pvorg"
+      },
+      {
+        "name":"Suriya",
+        "imgurl":"https://imgnew.outlookindia.com/public/uploads/articles/2021/10/28/Suriya_2_adobespark.jpg"
+      },
+      {
+       "name":"Sivakarthikeyan",
+       "imgurl":"https://wallpapercave.com/wp/wp4062917.jpg"
+     },
+     {
+       "name":"vikram",
+       "imgurl":"https://static.toiimg.com/photo/msid-77062209/77062209.jpg"
+     }
+  ]
 ```
 
 - set GET to `http://localhost:8001/tinder/cards` again and check in postman, we get the things we just post
